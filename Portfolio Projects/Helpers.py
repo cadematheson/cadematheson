@@ -39,7 +39,7 @@ class Helpers:
 
 		diff = np.diff(pts, axis = 1)
 		rect[1] = pts[np.argmin(diff)]
-		rect[3] = pts[np.argmax(diff)]
+		rect[3] = pts[np.argmax(diff)a
 
 		return rect
 
